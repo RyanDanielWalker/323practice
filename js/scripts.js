@@ -19,4 +19,8 @@ $(document).ready(function() {
     // $("body").addClass("dark-background");
     $("body").toggleClass("dark-background");
   });
+
+  $(".highlightable").click(function() {
+    $(this).toggleClass("highlight-paragraph");
+  })
 });

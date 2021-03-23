@@ -14,3 +14,9 @@
   background-color:darkgoldenrod;
   color: whitesmoke;
 }
+
+.highlight-paragraph {
+  background-color: yellow;
+  border: solid grey;
+  border-width: 5px;
+}
