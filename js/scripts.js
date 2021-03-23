@@ -24,4 +24,8 @@ $(document).ready(function() {
   $("#slide-toggle").click(function() {
     $("#img-mondrian").slideToggle();
   });
+
+  $("#more_info").click(function() {
+    $(".hides").slideToggle();
+  });
 });

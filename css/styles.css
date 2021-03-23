@@ -25,3 +25,7 @@
 .slide-up {
   font-weight: bold;
 }
+
+.hides {
+  display: none;
+}
