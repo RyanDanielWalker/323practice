@@ -1,31 +1,22 @@
-
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $(".walrus-showing").toggle();
-    $(".walrus-hidden").toggle();
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
   });
 
-  $(".fade-in").click(function() {
-    $("#img-in").fadeToggle();
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
   });
 
-  $("#img-out").click(function() {
-    $("#img-out").fadeOut();
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
   });
 
-  $(".slide-up").click(function() {
-    $("#img-mondrian").slideUp();
-  });
-
-  $(".slide-down").click(function() {
-    $("#img-mondrian").slideDown();
-  });
-
-  $("#slide-toggle").click(function() {
-    $("#img-mondrian").slideToggle();
-  });
-
-  $("#more_info").click(function() {
-    $(".hides").slideToggle();
+  $("button#text_light").click(function() {
+    $("body").removeClass();
+    // $("body").addClass("dark-background");
+    $("body").toggleClass("dark-background");
   });
 });

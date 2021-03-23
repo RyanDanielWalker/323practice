@@ -1,31 +1,16 @@
-.walrus-showing {
-  display: none;
-}
-.clickable {
-  cursor: pointer;
-  color:salmon;
+.green-background {
+  background-color: green;
 }
 
-.clickable:hover {
-  text-decoration: underline;
+.yellow-background {
+  background-color: yellow;
 }
 
-.fade-in {
-  color: green;
+.red-background {
+  background-color: red;
 }
 
-#img-in {
-  display: none;
-}
-
-.slide-down {
-  font-style: italic;
-}
-
-.slide-up {
-  font-weight: bold;
-}
-
-.hides {
-  display: none;
+.dark-background {
+  background-color:darkgoldenrod;
+  color: whitesmoke;
 }

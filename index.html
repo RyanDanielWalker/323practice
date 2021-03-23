@@ -5,36 +5,17 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Peek-a-boo</title>
+  <title>Colors</title>
 </head>
 <body>
   <div class="container">
-    <h1>Peek-a-boo</h1>
-    <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceit. Though it appears to be an innocent childrens' pastime, you may change your mind when you learn of its treacherous history.</p>
+    <h1>What's your favorite color?</h1>
+    <p>Click a button to choose what color you'd like this page to be:</p>
+    <button type="button" class="btn btn-dark" id="text_light">Click here for light text</button>
 
-    <h2 id="more_info">Click for more information</h2>
-    <div class="hides">
-      <div class="walrus-hidden">
-        <p>Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise!</p>
-      </div>
-
-      <div class="walrus-showing">
-        <p>What a cute walrus! <span class="clickable">Click here</span> to hide her again.</p>
-        <img src="img/Dave.jpg" style="width: 200px; height:auto">
-      </div>
-
-      <div>
-        <p class="fade-in">Show circles</p>
-        <img id="img-in" src="https://generative-placeholders.glitch.me/image?width=600&height=300&style=circles" atl="Generative circles image placeholder.">
-      </div>
-    
-      <img id="img-out" src="https://generative-placeholders.glitch.me/image?width=400&height=300&style=triangles" atl="Generative triangles image placeholder.">
-
-      <p class="slide-up">Slide Mondrian Up</p>
-      <p class="slide-down">Slide Mondrian Down</p>
-      <p id="slide-toggle">Slide Toggle</p>
-      <img id="img-mondrian" src="https://generative-placeholders.glitch.me/image?width=600&height=600&style=mondrian" atl="Generative mondrian image placeholder.">
-    </div>
+    <button class="btn btn-success" id="green">Green</button>
+    <button class="btn btn-warning" id="yellow">Yellow</button>
+    <button class="btn btn-danger" id="red">Red</button>
   </div>
 </body>
 </html>
