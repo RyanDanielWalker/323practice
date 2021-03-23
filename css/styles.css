@@ -1,0 +1,27 @@
+.walrus-showing {
+  display: none;
+}
+.clickable {
+  cursor: pointer;
+  color:salmon;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.fade-in {
+  color: green;
+}
+
+#img-in {
+  display: none;
+}
+
+.slide-down {
+  font-style: italic;
+}
+
+.slide-up {
+  font-weight: bold;
+}
